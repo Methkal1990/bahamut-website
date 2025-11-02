@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" bg-gray-100 font-sans p-6 h-full">
+    <div className=" bg-gray-100 font-sans p-2 md:p-4 lg:p-6 h-full">
       <main className="relative flex h-full w-full max-w-full rounded-2xl bg-white shadow-lg flex-col items-center justify-between px-3 py-6">
         {/* Top section with logo and heading */}
         <div className="flex flex-col items-center justify-start flex-1 min-h-0 w-full">

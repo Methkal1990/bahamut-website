@@ -50,7 +50,7 @@ export default function WorkPage() {
   const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-100 font-sans p-6 overflow-hidden">
+    <div className="flex h-screen items-center justify-center bg-gray-100 font-sans p-2 md:p-4 lg:p-6 overflow-hidden">
       <main className="relative flex h-full w-full max-w-full bg-white shadow-lg flex-col items-start px-8 py-8 rounded-2xl">
         {/* Back Button */}
         <Link
