@@ -8,13 +8,13 @@ export default function Home() {
         {/* Top section with logo and heading */}
         <div className="flex flex-col items-center justify-start flex-1 min-h-0 w-full">
           {/* Logo */}
-          <div className="mb-6 shrink-0 border border-gray-200 rounded-lg p-0 sm:p-0.5 md:p-1">
+          <div className="mb-6 shrink-0 border border-gray-200 rounded-lg">
             <Image
               src="/logo.png"
               alt="Bahamut Logo"
-              width={64}
-              height={64}
-              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
+              width={128}
+              height={128}
+              className="w-14 h-14"
               priority
             />
           </div>
