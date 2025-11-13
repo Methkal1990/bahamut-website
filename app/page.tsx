@@ -8,7 +8,7 @@ export default function Home() {
         {/* Top section with logo and heading */}
         <div className="flex flex-col items-center justify-start flex-1 min-h-0 w-full">
           {/* Logo */}
-          <div className="mb-6 shrink-0 border border-gray-200 rounded-lg">
+          <div className="mb-6 shrink-0 border border-gray-200 rounded-lg p-1">
             <Image
               src="/logo.png"
               alt="Bahamut Logo"
