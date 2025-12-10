@@ -21,10 +21,10 @@ export default function Home() {
 
           {/* Main Heading */}
           <h1 className="mb-6 text-center font-extrabold leading-tight tracking-[-0.02em] text-black shrink-0 text-4xl xl:text-5xl px-2">
-            We build AI agents that
+            We build AI first software that
             <br className="hidden sm:block" />
             <span className="sm:hidden"> </span>
-            work for you.
+            grows your business.
           </h1>
 
           {/* Call-to-Action Links */}

@@ -9,17 +9,11 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Bahamut | We build AI native software, agents and workflows",
+  title: "Bahamut | Your AI First Software Partner",
   description:
-    "Bahamut is a software company that builds AI native software, agents and workflows",
+    "Bahamut is a software company that builds AI first software that grows your business",
   icons: {
     icon: "/logo.png",
-  },
-  openGraph: {
-    title: "Bahamut | We build AI native software, agents and workflows",
-    description:
-      "Bahamut is a software company that builds AI native software, agents and workflows",
-    images: "/logo.png",
   },
 };
 
